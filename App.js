@@ -2,13 +2,13 @@ import { StatusBar } from 'expo-status-bar';
 import React, { Component } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Button } from 'react-native';
 
-/*const Buttonn = () => (
+const Buttonn = () => (
   <View style={styles.buttonStyle}>
     <TouchableOpacity>
       <Text>Spausti</Text>
     </TouchableOpacity>
   </View>
-)*/
+)
 
 export default class App extends Component {
   constructor () {
